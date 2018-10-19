@@ -5,6 +5,7 @@
     "author": "wenyao02.li <wenyao02.li@vipshop.com>",
     "private": true,
     "scripts": {
+        "mock": "gulp mock-server",
         "dev": "webpack-dev-server --inline --progress --config build/webpack.dev.conf.js",
         "start": "npm run dev",
         "unit": "jest --config test/unit/jest.conf.js --coverage",
@@ -35,6 +36,7 @@
         "browser-sync": "^2.26.0",
         "chalk": "^2.0.1",
         "chromedriver": "^2.27.2",
+        "clean-webpack-plugin": "^0.1.19",
         "copy-webpack-plugin": "^4.0.1",
         "cross-spawn": "^5.0.1",
         "css-loader": "^0.28.0",

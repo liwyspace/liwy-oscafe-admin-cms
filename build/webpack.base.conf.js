@@ -35,7 +35,7 @@ module.exports = {
         extensions: ['.js', '.vue', '.json'],
         alias: {
             'vue$': 'vue/dist/vue.esm.js',
-            '@': resolve('src'),
+            '@': resolve('src')
         }
     },
     module: {
@@ -96,6 +96,7 @@ module.exports = {
         child_process: 'empty'
     },
     externals: {
-        PortalSDK: "PortalSDK"
+        'PortalSDK': 'PortalSDK.default',
+        'Vue': 'PortalSDK.default.Vue',
     }
 };
