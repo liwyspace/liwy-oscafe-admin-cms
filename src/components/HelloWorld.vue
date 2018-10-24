@@ -1,5 +1,5 @@
 <template>
-    <div class="hello">
+    <div class="hello1">
         <h1>{{ msg }}</h1>
         <h2>Essential Links</h2>
         <ul>
@@ -98,8 +98,10 @@
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
-<style scoped>
-    h1 {
-        color: red;
+<style lang="scss" scoped>
+    .liwyCMS-app{
+        h1 {
+            color: red;
+        }
     }
 </style>
